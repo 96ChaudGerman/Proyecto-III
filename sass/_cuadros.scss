@@ -1,0 +1,12 @@
+header{
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        align-content: stretch;
+       
+    }
+}

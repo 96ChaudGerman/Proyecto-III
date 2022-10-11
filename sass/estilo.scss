@@ -1,0 +1,148 @@
+@import"cuadros";
+body{
+    background-color: darkgray;
+    min-height: 150vh;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    padding-bottom: 35px;
+}
+.body-2{
+    background-color: darkgray;
+    min-height: 150vh;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    padding-bottom: 35px;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+}
+.navbar{
+    border-bottom: solid;
+    border-top: solid;
+    font-family: 'Orbitron', sans-serif;
+}
+.parrafo-1{
+    border-bottom: solid;
+    background-color: antiquewhite;
+    font-family: 'Orbitron', sans-serif;
+    background-image: linear-gradient(to left, rgb(49, 49, 245) , rgb(175, 173, 173), rgb(49, 49, 255));
+}
+.parrafo-2{
+    border-bottom: solid;
+    background-color: antiquewhite;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 17px;
+    background-image: linear-gradient(to left, rgb(49, 49, 245) , rgb(175, 173, 173), rgb(49, 49, 255));
+}
+.opciones-1{
+    background-color: brown;
+    border: solid;
+}
+.opciones-2{
+    background-color: royalblue;
+    border: solid;
+}
+.opciones-3{
+    background-color: grey;
+    border: solid;
+}
+.opciones-4{
+    background-color: forestgreen;
+    border: solid;
+}
+.opciones-5{
+    background-color: blueviolet;
+    border: solid;
+}
+.infom{
+    display: flex;
+    justify-content: flex-start;
+}
+.formulario{
+    width: 300px;
+    height: 340px;
+    border: solid 5px;
+    font-family: 'Orbitron', sans-serif; 
+}
+h5{
+    border-bottom: solid;
+    background-image: linear-gradient(to left, red , yellow);
+    
+}
+.h6{
+    border-top: solid;
+    background-image: linear-gradient(to left, rgb(49, 49, 245) , rgb(175, 173, 173), rgb(49, 49, 255));
+
+}
+.boton{
+    margin: 6px;
+}
+.boton2{
+    display: flex;
+}
+.boton3{
+    position: relative;
+    top: 10px;
+}
+.btn-outline-secondary{
+   position: relative;
+   top: 50px;
+   right: 10px;
+
+}
+
+img{
+    width: 100%;
+}
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: stretch;
+}
+.consulta{
+    width: 100%;
+    height: 100%;
+}
+.card{
+    border: 4px solid black;
+    border-radius: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 13px;
+    height: 100%;
+}
+.hola{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center
+}
+@media only screen and (min-width: 992px ){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+@media only screen and (min-width: 690px ){
+    .formulario{
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 320px ){
+    .flex-container{
+        flex-direction: column;
+        width: 100%;
+    }
+}
